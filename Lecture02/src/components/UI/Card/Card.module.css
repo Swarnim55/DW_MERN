@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: azure;
+  min-height: 5rem;
+  max-width: 40rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px 3px #ccc;
+}
+
+.card input {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  min-height: 2rem;
+  font-size: 1rem;
+}
+
+.card label {
+  color: #000;
+  display: inline-flex;
+  width: 90%;
+
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.card span {
+  background-color: #1f1f1f;
+  display: block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  min-height: 2rem;
+  min-width: 15rem;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
